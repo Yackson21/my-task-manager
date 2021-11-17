@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.content {
+  background-color: #9e807f;
+  text-align: center;
+}
+
+.styled-table {
+  background-color: #afafaf;
+  border: thin;
+  margin: 20px 0;
+  font-size: 1em;
+  min-width: 400px;
+  font-family: sans-serif;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  left: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+  text-align: center;
+  padding: 12px 15px;
+}
+
+.styled-table tr {
+  background-color: #0098;
+  color: #fff;
+}
+
+.styled-table tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.styled-table tr:nth-last-of-type() {
+  border-bottom: 2px solid #0098;
+}
+
+.form {
+  position: fixed;
+  top: 30%;
+  right: 10px;
+}
+
+.update-form {
+  margin: 0 25px;
+}
+
+#content {
+  width: 500px;
+}
+/*# sourceMappingURL=main.css.map */
